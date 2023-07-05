@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class JdspiderPipeline:
+class JdSpiderPipeline:
     def process_item(self, item, spider):
         return item
