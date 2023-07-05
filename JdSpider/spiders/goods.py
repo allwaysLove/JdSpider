@@ -1,8 +1,8 @@
 import scrapy
 
 
-class GoodsspiderSpider(scrapy.Spider):
-    name = "goodsSpider"
+class GoodsSpider(scrapy.Spider):
+    name = "goods"
     allowed_domains = ["jd.com"]
     start_urls = ["https://jd.com"]
 
